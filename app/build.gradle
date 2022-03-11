@@ -46,6 +46,7 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     //Aqui agregamos las dependencias de Robolectric y espresso
     testImplementation 'org.robolectric:robolectric:4.6'
+    androidTestImplementation 'androidx.test:core-ktx:1.1.0'
     testImplementation 'androidx.test.espresso:espresso-core:3.5.0-alpha04'
     testImplementation 'androidx.test.espresso:espresso-intents:3.5.0-alpha04'
 

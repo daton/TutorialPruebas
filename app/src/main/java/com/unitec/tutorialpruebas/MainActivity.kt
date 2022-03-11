@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
 
         findViewById<Button>(R.id.login).setOnClickListener {
-             startActivity(Intent(applicationContext,MiLoginActivity::class.java ))
+             startActivity(Intent(applicationContext,OtraActivity::class.java ))
         }
     }
 }

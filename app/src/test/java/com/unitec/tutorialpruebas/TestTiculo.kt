@@ -30,6 +30,7 @@ fun probarNavegacion(){
 
         assertEquals(intentEsperado.component,intentActual.component)
 
+
     }
 }
 
